@@ -1,5 +1,6 @@
 package br.com.regivaldo.servicos.api;
 
+import br.com.regivaldo.servicos.model.Cnpj;
 import br.com.regivaldo.servicos.model.Logradouro;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -11,4 +12,10 @@ public interface InvertextoApi {
     Call<Logradouro> getLogradouro(
             @Path("numero") String numero,
             @Query("token") String token);
+
+    @GET("v1/validator")
+    Call<Cnpj> getCnpj(
+            @Query("token") String token,
+            @Query("value") String value,
+            @Query("type") String type);
 }

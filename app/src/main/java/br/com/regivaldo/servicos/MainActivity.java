@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button btCep = findViewById(R.id.btCep);
         btCep.setOnClickListener(this);
+
+        Button btCnpj = findViewById(R.id.btCnpj);
+        btCnpj.setOnClickListener(this);
     }
 
     @Override
@@ -34,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent telaCep = new Intent(MainActivity.this, CepActivity.class);
             startActivity(telaCep);
         } else if (v.getId() == R.id.btCnpj) {
-
+            Intent telaCep = new Intent(MainActivity.this, CnpjActivity.class);
+            startActivity(telaCep);
         }
     }
 }

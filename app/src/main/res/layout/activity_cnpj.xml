@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CepActivity">
+    tools:context=".CnpjActivity">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -28,19 +28,19 @@
             android:layout_width="233dp"
             android:layout_height="225dp"
             android:maxWidth="128sp"
-            app:srcCompat="@drawable/imagem_pagina" />
+            app:srcCompat="@drawable/cnpj" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/digite_cep"
+            android:text="@string/informe_cnpj_para_validaca"
             android:textAlignment="center"
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/etCep"
+            android:id="@+id/etCnpj"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
@@ -71,4 +71,5 @@
             android:textSize="24sp" />
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

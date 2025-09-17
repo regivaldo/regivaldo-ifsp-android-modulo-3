@@ -5,3 +5,12 @@ A atividade do módulo 03 consiste em realizar alguns ajustes no app desenvolvid
 - Pesquisem alguma estratégia para melhorar a forma como o token está configurado no app.
 - As chamadas para Api podem demorar a acontecer, então coloquem algum "loading" para que tenha uma informação visual para o usuário.
 - Escolha entre um dos serviços disponíveis na Api invertexto e criem os recursos necessários para usar e apresentar esse novo serviço no app.
+
+## Como executar
+
+1. Crie na raiz do projeto o arquivo `local.properties`
+2. Adicione a variavel `apiToken` ficando conforme abaixo
+
+```bash
+apiToken=TOKEN
+```

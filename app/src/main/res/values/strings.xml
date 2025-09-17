@@ -3,7 +3,10 @@
     <string name="digite_cep">Digite o CEP para buscar o Endereço</string>
     <string name="buscar">Buscar</string>
     <string name="endereco">Endereço</string>
-    <string name="loading">Buscando endereço...</string>
+    <string name="loading">Buscando informações...</string>
     <string name="error_not_found">Erro ao buscar informações, verifique o CEP.</string>
+    <string name="error_cnpj_not_found">Erro ao buscar informações, verifique o CNPJ.</string>
     <string name="error_connection">Verifique sua conexão com a internet.</string>
+    <string name="informacoes">Informações</string>
+    <string name="informe_cnpj_para_validaca">Informe CNPJ para validação</string>
 </resources>
